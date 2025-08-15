@@ -23,14 +23,13 @@ while controlling for browser type, platform, and site.
 # Load data
 @st.cache_data
 def load_data():
-    # Load your actual data here
-    # This is a placeholder - replace with your actual data loading code
-    data = """revenue,top,browser,platform,site
-0.007769438,30.96027313,safari,mobile,3
-0.014156806,9.400584003,chrome,desktop,3
-0.01227538,14.11994883,safari,desktop,3
-0.010661488,29.90705454,chrome,mobile,3"""
-    df = pd.read_csv(StringIO(data))
+    # Method 1: Direct download from GitHub (recommended)
+    url = "https://raw.githubusercontent.com/shahnid2/Raptive-Project/main/testdata.csv"
+    df = pd.read_csv(url)
+    
+    # Method 2: If you want to load locally (alternative)
+    # df = pd.read_csv("testdata.csv")
+    
     return df
 
 df = load_data()
