@@ -1,4 +1,6 @@
-matplotlib
 streamlit
-numpy
 pandas
+numpy
+matplotlib
+seaborn
+statsmodels
