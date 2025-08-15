@@ -1,29 +1,17 @@
 # Raptive-Project
 
-**Key Features**
-Data cleaning and preparation
-Visualization of relationships between metrics
-Correlation analysis between "time on page" and "revenue"
-Histograms and scatter plots for data exploration
+## Streamlit Dashboard
 
-**Technologies Used**
-Python
-Pandas (for data manipulation)
-Matplotlib (for visualization)
-Seaborn (for statistical visualizations)
-Google Colab (as the development environment)
+This repository includes an interactive Streamlit dashboard that lets you explore the relationship between time on page and revenue.
 
-**How to Use**
-Open the Jupyter notebook (raptive.ipynb) in Google Colab
-Run each cell sequentially to:
-Import necessary libraries
-Load and inspect the dataset
-Clean and prepare the data
-Generate visualizations
-Perform correlation analysis
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_URL)
 
-**Key Findings**
-The analysis reveals a moderate negative correlation (-0.56) between time on page and revenue
-Visualizations help identify patterns and distributions in the data
-The project demonstrates basic data analysis techniques that can be applied to similar datasets
+**Features**:
+- Interactive filtering by browser, platform, and site
+- Visualizations of the relationship between time on page and revenue
+- Correlation analysis by different categories
+- Multiple regression analysis
+
+  
+
 
