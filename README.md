@@ -4,7 +4,7 @@
 
 This repository includes an interactive Streamlit dashboard that lets you explore the relationship between time on page and revenue.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_URL)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([YOUR_STREAMLIT_APP_URL](https://raptive-project-7ncxaledvkz9v3ntgycmwm.streamlit.app/))
 
 **Features**:
 - Interactive filtering by browser, platform, and site
